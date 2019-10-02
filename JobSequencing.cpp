@@ -25,8 +25,8 @@ int main(){
     int time = 1;
     int index = 0;
     int profit = 0;
-    for(int i=0;i<n;i++)
-        cout<<"J"<<arr[i].index<<"\t"<<arr[i].profit<<"\t"<<arr[i].deadline<<endl;
+//    for(int i=0;i<n;i++)
+//        cout<<"J"<<arr[i].index<<"\t"<<arr[i].profit<<"\t"<<arr[i].deadline<<endl;
     cout<<"Job"<<"\t"<<"Profit"<<"\t"<<"Deadline"<<endl;
     while(time<=maxDead){
         if(arr[index].deadline>=time){
